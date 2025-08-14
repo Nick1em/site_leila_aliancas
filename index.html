@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leila Alianças</title>
-</head>
 
-<link rel="stylesheet" href="/style.css">
+    <!-- CSS Global + Módulos -->
+
+    <link rel="stylesheet" href="css/resets.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/produtoPrincipal.css">
+
+</head>
 
 <body>
     <!--Container Global  -->
@@ -16,9 +22,12 @@
         <!--Cabeçalho  -->
 
         <div class="cabecalho">
+            <div class="promo">
+                <p>10% de Desconto na primeira compra!!!</p>
+            </div>
             <div class="topo">
                 <div>
-                    <a href="">Home</a>
+                    <a class="home" href="">Home</a>
                 </div>
                 <img class="logo-cabecalho" src="img/Logo sem fundo.png" alt="Logo Leila Alianças">
                 <div class="barra-pesquisa">
@@ -48,13 +57,22 @@
             </div>
         </div>
         <div class="produto-principal">
-            <img src="img/produto-destaque.png" alt="Produto Destaque">
-            <div class="descricao-produto">
-                <h2>Aliança de Moeda Antiga</h2>
-                <p>Aliança feita com moeda antiga, design exclusivo e acabamento impecável.</p>
-                <span>R$ 450,00</span>
-                <button>Comprar Agora</button>
-                <button>Ver Produto</button>
+            <div class="card-produto-pricipal">
+                <img class="alianca-principal" src="img/Alianças ex.avif" alt="Produto Destaque">
+                <div class="descricao-produto">
+                    <span class="estoque">Produto em Estoque</span>
+                    <h2>Aliança de Ouro Envelhecido </h2>
+                    <p>Aliança feita com moeda antiga, design exclusivo e acabamento impecável.</p>
+                    <div class="preco"> 
+                        <span class="preco-desconto">R$ 680,00 </span> 
+                        <span class="preco-original">R$ 850,00</span> 
+                        <div> <span class="desconto-porcento"> -20% </span></div>
+                    </div>
+                    <div class="btn-compra">
+                        <button class="btn-comprar">Comprar Agora</button>
+                        <button class="btn-ver">Ver Produto</button>
+                    </div>
+                </div>
             </div>
         </div>
 

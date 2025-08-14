@@ -1,0 +1,133 @@
+/* ------Cabeçalho------*/
+
+.cabecalho {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF4F4;
+  position: fixed;
+  border-bottom: 1px solid rgb(179, 139, 139);  /* borda inferior do cabeçalho */
+}
+
+.promo {
+  width: 100%;
+  height: 1.1rem;
+  background-color: #C58C8C;  /* cor de fundo da promoção */
+  color: white; /* cor do texto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;  /* tamanho da fonte */
+
+}
+
+.topo {
+  width: 70%;
+  height: 4rem; /* altura do cabeçalho */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* deixa os lados afastados */
+   /* referência para o position absolute da logo */
+  margin-top: 0.5rem;
+  gap: 1rem;
+}
+
+.home {
+  text-decoration: none;  /* remove o sublinhado */
+  color: #241814; /* cor do texto */
+}
+
+.home:hover {
+  color: #9E5A5A; /* cor do texto ao passar o mouse */
+  text-decoration: none;  /* remove o sublinhado ao passar o mouse */
+}
+
+a:hover {
+  text-decoration: none;  /* NÃO APLICOU O <A> DO HOME! VER PORQUE*/
+  transform: scale(1.1);  /* Aumenta o tamanho em 20% */
+}
+
+.logo-cabecalho {
+  height: 3.5rem; /* altura da logo */
+  left: 50%;
+  transform: translateX(50%); /* centraliza no eixo X */
+  height: 3.5rem;
+}
+
+.barra-pesquisa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  gap: 0.2rem;
+}
+
+.pesquisa {
+  width: 10rem;
+  height: 2rem;
+  border: 1px solid #C58C8C;
+  border-radius: 0.5rem;  /* borda arredondada */
+  padding: 0.5rem;  /* espaçamento interno */
+}
+
+.pesquisa:focus {
+  outline: none;  /* remove o contorno padrão do navegador */
+  border: 1px solid #9E5A5A;  /* borda azul ao focar */
+}
+
+.btn-pesquisa {
+  background-color: #C58C8C;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+input {
+  color: #241814;
+}
+
+.btn-pesquisa:hover {
+  background-color: #9E5A5A;  /* cor de fundo ao passar o mouse */
+}
+
+.favoritos {
+  font-size: 1.5rem;  /* trocar e recolocar icone tipo de coração -----------------------------------*/
+}
+
+
+.menu-categorias {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.categorias {
+  display: flex;
+  font-size: 1.2rem;
+  gap: 5rem;  /* Espaçamento entre as categorias */
+}
+
+.categoria {
+  text-decoration: none;  /* remove o sublinhado */
+  color: #241814; /* cor do texto */
+  padding: 0.5rem 1rem; /* espaçamento interno */
+}
+
+.ver-tudo {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background-color: #241814;
+  color: #f0f0f0;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}

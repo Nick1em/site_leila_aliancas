@@ -1,0 +1,13 @@
+/* Reset básico */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #FFF4F4;
+  line-height: 1.5;
+}
