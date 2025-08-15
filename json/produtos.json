@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "Aliança Prata 925",
+    "categoria": "prata",
+    "preco": "R$ 200,00",
+    "imagem": "imagens/prata1.jpg",
+    "maisVendido": true
+  },
+  {
+    "nome": "Aliança Ouro 18k",
+    "categoria": "ouro",
+    "preco": "R$ 1.200,00",
+    "imagem": "imagens/ouro1.jpg",
+    "maisVendido": false
+  },
+  {
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "preco": "R$ 250,00",
+    "imagem": "imagens/prata2.jpg",
+    "maisVendido": true
+  }
+]

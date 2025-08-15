@@ -24,13 +24,12 @@
 }
 
 .topo {
-  width: 70%;
+  width: 60%;
   height: 4rem; /* altura do cabeçalho */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between; /* deixa os lados afastados */
-   /* referência para o position absolute da logo */
   margin-top: 0.5rem;
   gap: 1rem;
 }
@@ -55,6 +54,7 @@ a:hover {
   left: 50%;
   transform: translateX(50%); /* centraliza no eixo X */
   height: 3.5rem;
+  
 }
 
 .barra-pesquisa {
@@ -96,10 +96,9 @@ input {
   background-color: #9E5A5A;  /* cor de fundo ao passar o mouse */
 }
 
-.favoritos {
-  font-size: 1.5rem;  /* trocar e recolocar icone tipo de coração -----------------------------------*/
+.fav{
+  cursor: pointer;
 }
-
 
 .menu-categorias {
   display: flex;
