@@ -11,3 +11,10 @@ body {
   background-color: #FFF4F4;
   line-height: 1.5;
 }
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;    
+  align-items: center;
+}

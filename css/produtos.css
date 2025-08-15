@@ -1,17 +1,15 @@
 .produtos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  width: 70rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 1px solid #ff0000;
 }
 
 .produto {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  border-radius: 8px;
-  text-align: center;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid #000;
 }
 
-.produto img {
-  max-width: 100%;
-  border-radius: 8px;
-}
