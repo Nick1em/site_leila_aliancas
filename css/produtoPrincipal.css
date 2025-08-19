@@ -27,7 +27,7 @@
     align-items: flex-start;
     justify-content: center;
     gap: 0.5rem; /* Espaço entre os elementos */
-    max-width: 40%; /* largura máxima da descrição */
+    max-width: 55%; /* largura máxima da descrição */
 }
 
 .preco{
@@ -125,8 +125,6 @@
     background-color: #9E5A5A;
     color: #f0f0f0; 
 }
-
-
 
 .alianca-principal {
     height: 15rem;

@@ -29,7 +29,7 @@
             </div>
             <div class="topo">
                 <div>
-                    <a class="home" href="">Home</a>
+                    <a class="home" href="?home=true">Home</a>
                 </div>
                 <img class="logo-cabecalho" src="img/Logo sem fundo.png" alt="Logo Leila Alianças">
                 <div class="barra-pesquisa">
@@ -39,12 +39,12 @@
             </div>
             <div class="menu-categorias">
                 <nav class="categorias">
-                    <a class="categoria" href="">Casamento</a>
-                    <a class="categoria" href="">Namoro</a>
-                    <a class="categoria" href="">Ouro</a>
-                    <a class="categoria" href="">Prata</a>
-                    <a class="categoria" href="">Moeda</a>
-                    <a class="ver-tudo" href="">Ver Tudo</a>
+                    <a class="categoria" href="?tipo=casamento">Casamento</a>
+                    <a class="categoria" href="?tipo=namoro">Namoro</a>
+                    <a class="categoria" href="?tipo=ouro">Ouro</a>
+                    <a class="categoria" href="?tipo=prata">Prata</a>
+                    <a class="categoria" href="?tipo=moeda">Moeda</a>
+                    <a class="ver-tudo" href="?tipo=todos">Ver Tudo</a>
                 </nav>
             </div>
         </div>
@@ -58,6 +58,7 @@
                 <button class="btn-banner">Orçamento</button>
             </div>
         </div>
+        
         <div class="produto-principal">
             <div class="card-produto-pricipal">
                 <img class="alianca-principal" src="img/Alianças ex.avif" alt="Produto Destaque">
@@ -84,14 +85,14 @@
             <div class="produtos">
                 <div class="titulo">
                     <h2>Os mais vendidos</h2>
-                    <h3>Descubra os queridinhos dos nossos clientes</h3>
+                    <p>Descubra os queridinhos dos nossos clientes</p>
                 </div>
-                <div class="mais-vendidos" id="mais-vendidos">
+                <div class="produtos-lista" id="produtos-lista">
                     <!-- Os produtos vão aparecer aqui -->
 
                 </div>
             </div>
-            <script src="js/maisVendidos.js"></script>
+            <script src="/js/produtos.js"></script>
         </main>
 
         <!--Rodapé  -->

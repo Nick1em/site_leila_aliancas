@@ -1,15 +1,58 @@
+
+.produtos-lista{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
 .produtos {
   width: 70rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 20px;
-  border: 1px solid #ff0000;
+  padding: 20px;  
+}
+
+.titulo h2 {
+  color: #241814;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulo p {
+  color: #C58C8C;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .produto {
-  width: 10rem;
-  height: 10rem;
-  border: 1px solid #000;
+  width: 15rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.alianca{
+  width: 11rem;
+  height: 11rem;
+  border-radius: 0.5rem;
+}
+
+.btn-vendedor {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background-color: #241814;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.btn-vendedor:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

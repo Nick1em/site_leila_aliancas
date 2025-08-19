@@ -1,23 +1,228 @@
 [
   {
+    "id":"1", 
     "nome": "Aliança Prata 925",
     "categoria": "prata",
-    "preco": "R$ 200,00",
-    "imagem": "imagens/prata1.jpg",
+    "tipo" :"prata",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
     "maisVendido": true
   },
   {
+    "id":"2", 
     "nome": "Aliança Ouro 18k",
     "categoria": "ouro",
-    "preco": "R$ 1.200,00",
-    "imagem": "imagens/ouro1.jpg",
+    "tipo" :"ouro",
+    "preco": "1.200",
+    "imagem": "/img/AliançaPrata.png",
     "maisVendido": false
   },
   {
+    "id":"3",
     "nome": "Aliança Prata Fosca",
     "categoria": "prata",
-    "preco": "R$ 250,00",
-    "imagem": "imagens/prata2.jpg",
+    "tipo" :"prata",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": true
+  },
+  {
+    "id":"4",
+    "nome": "Aliança Prata 925",
+    "categoria": "prata",
+    "tipo" :"prata",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": false
+  },
+  {
+    "id":"5",
+    "nome": "Aliança Ouro 18k",
+    "categoria": "ouro",
+    "tipo" :"casamento",
+    "preco": "1.200",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": true
+  },
+  {
+    "id":"6",
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo" :"namoro",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": false
+  },
+  {
+    "id":"7",
+    "nome": "Aliança Ouro 18k",
+    "categoria": "ouro",
+    "tipo" :"casamento",
+    "preco": "1.200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": true
+  },
+  {
+    "id":"8",
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo" :"namoro",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": false
+  },
+  {
+    "id":"9",
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo" :"namoro",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": false
+  },
+  {
+    "id":"10",
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo" :"namoro",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": false
+  },
+  {
+    "id":"11", 
+    "nome": "Aliança Prata 925",
+    "categoria": "prata",
+    "tipo" :"prata",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": true
+  },
+  {
+    "id":"12", 
+    "nome": "Aliança Ouro 18k",
+    "categoria": "ouro",
+    "tipo" :"ouro",
+    "preco": "1.200",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": false
+  },
+  {
+    "id":"13",
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo" :"prata",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": true
+  },
+  {
+    "id":"14",
+    "nome": "Aliança Prata 925",
+    "categoria": "prata",
+    "tipo" :"prata",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": false
+  },
+  {
+    "id":"15",
+    "nome": "Aliança Ouro 18k",
+    "categoria": "ouro",
+    "tipo" :"casamento",
+    "preco": "1.200",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": true
+  },
+  {
+    "id":"16",
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo" :"namoro",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": false
+  },
+  {
+    "id":"17",
+    "nome": "Aliança Ouro 18k",
+    "categoria": "ouro",
+    "tipo" :"casamento",
+    "preco": "1.200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": true
+  },
+  {
+    "id":"18",
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo" :"namoro",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": false
+  },
+  {
+    "id":"19",
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo" :"namoro",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": false
+  },
+  {
+    "id":"20",
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo" :"namoro",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": false
+  },
+  {
+    "id":"21", 
+    "nome": "Aliança Prata 925",
+    "categoria": "prata",
+    "tipo" :"prata",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": true
+  },
+  {
+    "id":"22", 
+    "nome": "Aliança Ouro 18k",
+    "categoria": "ouro",
+    "tipo" :"ouro",
+    "preco": "1.200",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": false
+  },
+  {
+    "id":"23",
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo" :"prata",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": true
+  },
+  {
+    "id":"24",
+    "nome": "Aliança Prata 925",
+    "categoria": "prata",
+    "tipo" :"prata",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "maisVendido": false
+  },
+  {
+    "id":"25",
+    "nome": "Aliança Ouro 18k",
+    "categoria": "ouro",
+    "tipo" :"casamento",
+    "preco": "1.200",
+    "imagem": "/img/AliançaPrata.png",
     "maisVendido": true
   }
+  
 ]
