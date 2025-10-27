@@ -1,0 +1,35 @@
+
+  {
+    "id":"10",
+    "ref": "P621", 
+    "nome": "Abaulada Friso Diagonal com 44 pedras Cristal",
+    "categoria": "moeda",
+    "tipo" :"moeda",
+    "preco": o par "350.00", 200 a unidade feminina
+    "imagem": "/img/AliançaPrata.png",
+     "descricao": "Abaulada Friso Diagonal com 44 pedras Cristal - 6MM", 
+    "maisVendido": false
+  },
+ {
+    "id":"11",
+    "ref": "P622",  
+    "nome": "Abaulada Batimento Cardiao com 10Perdas Cristal",
+    "categoria": "moeda",
+    "tipo" :"moeda",
+    "preco": "380.00", 180 a unidade feminina 
+    "imagem": "/img/AliançaPrata.png",
+    "descricao": "Abaulada Batimento Cardiao com 10Perdas Cristal - 6MM",
+    "maisVendido": true
+  },
+
+{
+    "id":"12", 
+    "ref": "P623", 
+    "nome": "Abaulada com 21 Pedras Cristal",
+    "categoria": "moeda",
+    "tipo" :"moeda",
+    "preco": 180. a unidade feminina o par 280
+    "imagem": "/img/AliançaPrata.png",
+    "descricao": "Abaulada com 21 Pedras Cristal - 6MM",
+    "maisVendido": false
+  },

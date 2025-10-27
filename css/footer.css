@@ -32,6 +32,7 @@ footer p {
 }
 
 .redes-sociais{
+
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -41,7 +42,10 @@ footer p {
 .redes {
   width: 3rem;
   height: 3rem;
+}
 
+.redes:hover {
+  cursor: pointer;
 }
 
 
@@ -49,7 +53,7 @@ footer p {
   display: flex;
   flex-wrap: wrap;
   gap: 4rem;
-  justify-content: center; /* centraliza as colunas */
+  justify-content: center;
   width: 100%;
 }
 
@@ -73,8 +77,6 @@ footer p {
 .categoria h3 {
   color: #fff;
 }
-
-
 
 .formas-pagamento{
   display: flex;

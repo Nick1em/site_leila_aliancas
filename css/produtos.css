@@ -7,6 +7,7 @@
   margin-top: 2rem;
 }
 
+
 .produtos {
   width: 70rem;
   display: flex;
@@ -15,15 +16,10 @@
   padding: 20px;  
 }
 
-.titulo h2 {
-  color: #241814;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.pp {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.titulo p {
-  color: #C58C8C;
-  font-family:'Times New Roman', Times, serif;
-}
 
 .produto {
   width: 15rem;
@@ -31,13 +27,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.alianca{
-  width: 11rem;
-  height: 11rem;
-  border-radius: 0.5rem;
+.produto p {
+  font-size: 90%;
+  
 }
+
+.produto span {
+  font-size: 90%;
+}
+
+
+.alianca{
+  width: 13rem;
+  height: 12rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(151, 5, 5, 0.589);  
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
 
 .btn-vendedor {
   height: 2rem;

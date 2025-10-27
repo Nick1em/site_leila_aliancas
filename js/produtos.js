@@ -44,7 +44,7 @@ async function carregarProdutos() {
 
     const params = new URLSearchParams(window.location.search); // onde tem ? no HTML ele permite trabalhar
     const tipo = (params.get('tipo') || '').toLocaleLowerCase(); //filtrando pelo "tipo" (casamento,namoro...) selecionado
-    const inicio = !params.has('tipo') || params.get('home') === 'true';// se estiver ou clicar em home vai mostrar os mais vendidos // se estiver ou clicar em home vai mostrar os mais vendidos
+    const inicio = !params.has('tipo') || params.get('home') === 'true';//se estiver ou clicar em home vai mostrar os mais vendidos
 
     let listaProdutos = produtos;
 
@@ -105,11 +105,16 @@ function renderizar(listaProdutos) {
     cardProduto.className = 'produto';
     cardProduto.innerHTML = `
     <img class= "alianca" src="${produtos.imagem}">
-    <p>${produtos.nome}</p>
+    
+    <p class= "pp" >${produtos.nome}</p>
     <h3>${BRL.format(preco)}</h3>
-    <p>ou 3x de ${BRL.format(parcela)}</p>
-    <button class="btn-vendedor">Fale com Vendedor</button>
+    <span>ou 3x de ${BRL.format(parcela)}</span>
+    <button class="btn-vendedor"> Compre Agora </button>
     `;
+   const img = cardProduto.querySelector('.alianca')
+    img.addEventListener('click', () => {
+      alert(`Colocar Página dedicada ao produto: ${produtos.nome}`);
+    });
 
     container.appendChild(cardProduto)
 
