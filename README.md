@@ -1,13 +1,47 @@
-# 💍 Leila Alianças
+# Leila Alianças
 
-Site institucional da marca **Leila Alianças**, desenvolvido para apresentar catálogo de produtos e facilitar o contato com clientes.
+Catálogo online da Loja e ourives Leila Alianças. Feito para auxiliar a Dona 
+nas vendas, fornecer e compartilhar e com seus clientes e redes sociais.
 
-## 📌 Tecnologias usadas
-- HTML5
-- CSS3
+
+# página no git pages: 
+
+
+
+# Tecnologias:
+- HTML
+- CSS
 - JavaScript
 
-## 📷 Preview
-*(coloque aqui uma imagem ou GIF do site depois de pronto)*
+# Organização
 
-## 📂 Estrutura de pastas
+site_leila_alianacas
+├── css/
+|   ├── banners.css
+|   ├── breandCrumbs.css
+|   ├── contato.css
+|   ├── detalhes.css
+|   ├── footer.css
+|   ├── header.css
+|   ├── produtoPrincipal.css
+|   ├── produtos.css
+|   ├── resets.css
+|   ├── img
+|
+|   ├── js/
+|   ├── banners.js
+|   ├── breadCrumb.js
+|   ├── detalhes.js
+|   ├── detalhesLogica.js
+|   ├── produtos.js
+|   ├── promo.js
+|
+|   ├── json/
+|   ├── oberve.text
+|   ├── produtos.json
+|
+|   ├── detalhes.html
+|   ├── index.html/
+|   ├── README.md
+|   ├── style.css
+
