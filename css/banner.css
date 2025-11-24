@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('img/banner.png');
+    background-image: url('/img/banner.png');
     /* imagem de fundo do banner */
     background-size: cover;
     /* cobre todo o espaço do banner */
