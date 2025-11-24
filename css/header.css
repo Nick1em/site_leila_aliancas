@@ -1,0 +1,213 @@
+/* ------Cabeçalho------*/
+header{
+  
+  z-index: 9999;
+  background-color: #FFF4F4; /* evita o “efeito transparente” */
+}
+
+.cabecalho {
+  position: fixed;
+  padding-top: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #FFF4F4;
+  border-bottom: 1px solid rgb(179, 139, 139);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1); /* anima mais lento e fluido */
+}
+
+.cabecalho.compacto {
+  padding-top: 5px;
+}
+
+.cabecalho.reduzido .promo {
+  opacity: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.cabecalho.reduzido .topo {
+  padding: 0.4rem 0;
+}
+
+
+
+.promo {
+  width: 100%;
+  height: 2rem;
+  background-color: #C58C8C;
+  /* cor de fundo da promoção */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Chiron Sung HK", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.2rem;
+  /* tamanho da fonte */
+
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1); /* anima mais lento e fluido */
+}
+
+.promo.oculta {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none; /* evita clique quando escondida */
+}
+
+.topo {
+  width: 100%;
+  height: 4rem;
+  /* altura do cabeçalho */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* deixa os lados afastados */
+  transition: height 0.4s ease, transform 0.4s ease;
+}
+
+
+.cabecalho.compacto .topo {
+  height: 3rem; /* altura menor quando a .promo some */
+  transform: scale(0.99); /* ligeiro encolhimento do conteúdo */
+}
+
+a:hover {
+  text-decoration: none;
+  /* NÃO APLICOU O <A> DO HOME! VER PORQUE*/
+  transform: scale(1.1);
+  /* Aumenta o tamanho em 20% */
+}
+
+.logo-cabecalho {
+  margin-top: 1rem;
+  height: 4rem;
+  /* altura da logo */
+}
+
+.pesquisa-container {
+  width: 4rem;
+  position: relative;
+  width: 4rem;
+  height: 2.2rem;
+  transition: width 0.3s ease;
+  overflow: visible;
+  /* permite o input expandir pra fora */
+  margin-right: 5rem;
+
+}
+
+.barra-pesquisa {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 70%;
+  width: 100%;
+  border: transparent;
+  border-radius: 50px;
+  padding: 5px 10px;
+  outline: none;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.barra-pesquisa:focus {
+  width: 14rem;
+  z-index: 1;
+}
+
+.btn-pesquisa {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none; /* impede clique enquanto escondido */
+  transition: opacity 0.3s ease;
+  z-index: 2;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-pesquisa img {
+  width: 1.2rem;
+  height: 1.2rem;
+  opacity: 0.7;
+  transition: opacity 4s;
+}
+
+.btn-pesquisa:hover img {
+  opacity: 1;
+}
+
+.barra-pesquisa:focus + .btn-pesquisa {
+  opacity: 1;
+  pointer-events: auto;
+  right: -10rem; /* move o botão junto pro final do input */
+}
+
+
+.menu-categorias {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: padding 0.4s ease;
+}
+
+.cabecalho.compacto .menu-categorias {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.categorias {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+  gap: 1rem;
+  /* Espaçamento entre as categorias */
+}
+
+.categoria {
+  text-decoration: none;
+  /* remove o sublinhado */
+  color: #241814;
+  /* cor do texto */
+  padding: 0.5rem 1rem;
+  /* espaçamento interno */
+}
+
+.ver-tudo {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background-color: #241814;
+  color: #f0f0f0;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.icones {
+  margin-left: 4rem;
+
+}
+
+.icones a {
+  margin: 10px;
+  cursor: pointer;
+}

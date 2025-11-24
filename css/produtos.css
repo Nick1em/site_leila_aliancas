@@ -1,0 +1,71 @@
+
+.produtos-lista{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+
+.produtos {
+  width: 70rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;  
+}
+
+.pp {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.produto {
+  width: 15rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.produto p {
+  font-size: 90%;
+  
+}
+
+.produto span {
+  font-size: 90%;
+}
+
+
+.alianca{
+  width: 13rem;
+  height: 12rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(151, 5, 5, 0.589);  
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+
+.btn-vendedor {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background-color: #241814;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.btn-vendedor:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

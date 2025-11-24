@@ -1,0 +1,201 @@
+
+.container {
+  margin-top: 80px;
+}
+/* voltar */
+.returno{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+
+}
+.voltar{
+  align-items: start;
+  display:inline-block;
+  color: #241814;
+  text-decoration:none;
+  margin-bottom: 1rem;
+  font-weight:600;
+  opacity:0.95;
+}
+
+/* card area */
+.card{
+  display:grid;
+  grid-template-columns: 340px 1fr 360px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background: transparent; 
+}
+
+/* galeria + miniaturas (esquerda) */
+.galeria-wrap{
+  display:flex;
+  gap: 1rem;
+  align-items:start;
+}
+
+/* miniaturas (coluna esquerda) */
+.miniaturas{
+  display:flex;
+  flex-direction:column;
+  gap: 0.6rem;
+  width: 72px;
+  align-self:flex-start;
+}
+
+.miniaturas img{
+  width:72px;
+  height:72px;
+  margin-top: 1rem;
+  object-fit:cover;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  box-shadow: 0 6px 16px rgba(36,24,20,0.06);
+  cursor: pointer;
+  transition: transform .18s ease, border-color .18s ease;
+}
+.miniaturas img:hover{ 
+transform: translateY(-2px) ;
+box-shadow: 0 10px 20px rgba(255, 1, 170, 0.158)
+}
+
+.miniaturas img.selected{
+  transform: scale(1.03);
+}
+
+/* imagem principal (centro) */
+.imagem-principal-wrap{
+  width: 100%;
+  display:flex;
+  height: 350px; /* fixa uma altura */
+  justify-content:center;
+  align-items:center;
+  padding: 1rem;
+}
+
+.imagem-principal{
+  width:100%;
+  height: 100%; /* ocupa 100% da caixa */
+  max-width: 600px;
+  max-height: 600px;
+  object-fit:contain;
+  border-radius: 12px;
+}
+
+/* info (lado direito) */
+.info{
+  margin-top: 1rem;
+  display:flex;
+  flex-direction:column;
+  gap: 0.5rem;
+}
+
+.produto-nome{
+  margin: 0;
+  font-size: 1.4rem;
+  letter-spacing: 0.2px;
+  color: #241814;
+}
+
+/* subtitulo romântico */
+.subtitulo{
+  font-size: .95rem;
+}
+
+/* preço */
+.preco-wrap{
+  display:flex;
+  flex-direction:column;
+  gap: 0.2rem;
+  margin-top:.5rem;
+}
+.preco{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #241814;
+}
+
+.parcelas{
+  font-size: .95rem;
+}
+
+/* descrição */
+.descricao{
+  color: #4b3b36;
+  line-height:1.5;
+  margin-top:.25rem;
+}
+
+/* detalhes */
+.detalhes-lista{
+  list-style:none;
+  padding:0;
+  margin:0;
+  color: #4b3b36;
+  display:flex;
+  flex-direction:column;
+  gap: .35rem;
+  font-size: .95rem;
+}
+
+/* acoes (botoes) */
+.acoes{
+  display:flex;
+  gap: .6rem;
+  margin-top:.5rem;
+  align-items:center;
+}
+
+.btn-whats{
+  background:  #241814;
+  border: none;
+  color: #fff;
+  padding: .9rem 1rem;
+  border-radius: 12px;
+  font-weight:700;
+  cursor:pointer;
+  display:inline-flex;
+  align-items:center;
+  gap: .6rem;
+ 
+}
+.btn-whats:hover{ transform: translateY(-3px); box-shadow: 0 10px 20px rgba(255, 1, 170, 0.158) }
+
+.btn-outline{
+  background: transparent;
+  color: #241814;
+  padding: .75rem .9rem;
+  border: 1px solid rgb(165, 106, 106);
+  border-radius: 12px;
+  cursor:pointer;
+}
+.btn-outline:hover{ transform: translateY(-3px); box-shadow: 0 10px 20px rgba(255, 1, 170, 0.158) }
+
+/* icon heart inside whatsapp */
+.icon-heart{ color: #fff; opacity: .95; }
+
+/* responsive */
+@media (max-width: 1000px){
+  .card{
+    grid-template-columns: 1fr;
+  }
+
+  .galeria-wrap{
+    flex-direction:column;
+    align-items:center;
+  }
+  .miniaturas{ flex-direction:row; width:100%; justify-content:center; gap:.5rem; order:2; }
+  .miniaturas img{ width:64px; height:64px }
+  .imagem-principal{ max-width: 420px; max-height:420px }
+  .info{ order:3 }
+}
+
+/* smaller phones */
+@media (max-width: 420px){
+  body{ padding: 1rem }
+ 
+  .imagem-principal{ max-width: 360px }
+}

@@ -1,0 +1,76 @@
+
+
+/* ------ Banner  -------*/
+
+.banner-produto {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 40rem;
+    /* altura mínima do banner */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/img/banner.png');
+    /* imagem de fundo do banner */
+    background-size: cover;
+    /* cobre todo o espaço do banner */
+    background-position: center;
+    /* centraliza a imagem */
+    border: 1px solid #C58C8C;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6rem;
+}
+
+.banner span {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5rem
+}
+
+.certificado-texto {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.btn-banner {
+    background-color: #ebd3d3;
+    font-size: large;
+    color: #241814;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    /* cursor de mão ao passar o mouse */
+    margin-top: 0.5rem;
+}
+
+.btn-banner:hover {
+    background-color: #241814;
+    /* cor de fundo ao passar o mouse */
+    color: #f0f0f0;
+    /* cor do texto ao passar o mouse */
+}
+
+.texto-banner {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0.1rem;
+}
+
+.produto-principal {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}

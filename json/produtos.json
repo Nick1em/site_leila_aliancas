@@ -1,0 +1,402 @@
+[
+  {
+    "id": "1",
+    "ref": "TA301",
+    "nome": "Tradicional Abaulada",
+    "categoria": "moeda",
+    "tipo": "moeda",
+    "preco": "170.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Tradicional- Abaulada - Polida - 3MM",
+    "maisVendido": true
+  },
+  {
+    "id": "2",
+    "ref": "TR302",
+    "nome": "Tradicional Reta Polida",
+    "categoria": "moeda",
+    "tipo": "moeda",
+    "preco": "1.170",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Tradicional Reta Polida - 3MM",
+    "maisVendido": false
+  },
+  {
+    "id": "3",
+    "ref": "F310",
+    "nome": "Reta com Friso no Centro",
+    "categoria": "moeda",
+    "tipo": "moeda",
+    "preco": "180.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Reta com Friso no Centro - 3MM",
+    "maisVendido": true
+  },
+  {
+    "id": "4",
+    "ref": "TA401",
+    "nome": "Tradicional Abaulada podida",
+    "categoria": "moeda",
+    "tipo": "moeda",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Tradicional Abaulada podida -4.3MM",
+    "maisVendido": false
+  },
+  {
+    "id": "5",
+    "ref": "TR402",
+    "nome": "Tradicional Reta Polida",
+    "categoria": "moeda",
+    "tipo": "moeda",
+    "preco": "1.200",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Tradicional Reta Polida - 4.3MM",
+    "maisVendido": true
+  },
+  {
+    "id": "6",
+    "ref": "D412",
+    "nome": "Reta com Um Friso Diamantado",
+    "categoria": "prata",
+    "tipo": "prata",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Reta com Um Friso Diamantado - 4.3MM",
+    "maisVendido": false
+  },
+  {
+    "id": "7",
+    "ref": "F414",
+    "nome": "Reta Trabalhada Polida",
+    "categoria": "moeda",
+    "tipo": "moeda",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Reta Trabalhada Polida -4.3MM",
+    "maisVendido": true
+  },
+  {
+    "id": "8",
+    "ref": "P422",
+    "nome": "Reta Trabalhada Com Volta de Pedras de Cristal",
+    "categoria": "moeda",
+    "tipo": "moeda",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Reta Trabalhada Com Volta de Pedras de Cristal - 4.3MM",
+    "maisVendido": false
+  },
+  {
+    "id": "9",
+    "ref": "TA601",
+    "nome": "Tradicional Abaulada Polida ",
+    "categoria": "moeda",
+    "tipo": "moeda",
+    "preco": "190.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Tradicional Abaulada Polida - 6MM",
+    "maisVendido": false
+  },
+  {
+    "id": "10",
+    "ref": "P621",
+    "nome": "Abaulada Friso Diagonal com 44 pedras Cristal",
+    "categoria": "moeda",
+    "tipo": "moeda",
+    "preco": "360.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Abaulada Friso Diagonal com 44 pedras Cristal - 6MM",
+    "maisVendido": false
+  },
+  {
+    "id": "11",
+    "ref": "P622",
+    "nome": "Abaulada Batimento Cardiao com 10 Perdas Cristal",
+    "categoria": "moeda",
+    "tipo": "moeda",
+    "preco": "380.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Abaulada Batimento Cardiao com 10Perdas Cristal - 6MM",
+    "maisVendido": true
+  },
+  {
+    "id": "12",
+    "ref": "P623",
+    "nome": "Abaulada com 21 Pedras Cristal",
+    "categoria": "moeda",
+    "tipo": "moeda",
+    "preco": "280",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Abaulada com 21 Pedras Cristal - 6MM",
+    "maisVendido": false
+  },
+  {
+    "id": "13",
+    "ref": "AP230",
+    "nome": "Anél Aparador com 15 Pedras Cristal",
+    "categoria": "moeda",
+    "tipo": "moeda",
+    "preco": "95.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Anél Aparador com 15 Pedras Cristal - 2MM",
+    "maisVendido": true
+  },
+  {
+    "id": "14",
+    "ref": "AN240",
+    "nome": "Anél Solitário com Pedra Cristal",
+    "categoria": "moeda",
+    "tipo": "Moeda",
+    "preco": "95.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Anél Solitário com Pedra Cristal de 5MM + 16 Pedras 1,5MM - 2.4MM",
+    "maisVendido": false
+  },
+  {
+    "id": "15",
+    "ref": "AN242",
+    "nome": "Anél Solitário Carré Pedra 3x3 Cristal",
+    "categoria": "ouro",
+    "tipo": "casamento",
+    "preco": "95.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Anél Solitário Carré Pedra 3x3 Cristal - 2.4MM",
+    "maisVendido": true
+  },
+  {
+    "id": "16",
+    "ref": "P221",
+    "nome": "Abaulada com 12 Pedras Cristal",
+    "categoria": "moeda",
+    "tipo": "Moeda",
+    "preco": "95.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "Abaulada com 12 Pedras Cristal - 2.MM",
+    "maisVendido": false
+  },
+  {
+    "id": "17",
+    "ref": 301,
+    "nome": "Aliança Ouro 18k",
+    "categoria": "ouro",
+    "tipo": "casamento",
+    "preco": "1.200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "",
+    "maisVendido": true
+  },
+  {
+    "id": "18",
+    "ref": 301,
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo": "namoro",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "",
+    "maisVendido": false
+  },
+  {
+    "id": "19",
+    "ref": 301,
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo": "namoro",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "",
+    "maisVendido": false
+  },
+  {
+    "id": "20",
+    "ref": 301,
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo": "namoro",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "",
+    "maisVendido": false
+  },
+  {
+    "id": "21",
+    "ref": 301,
+    "nome": "Aliança Prata 925",
+    "categoria": "prata",
+    "tipo": "prata",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "",
+    "maisVendido": true
+  },
+  {
+    "id": "22",
+    "ref": 301,
+    "nome": "Aliança Ouro 18k",
+    "categoria": "ouro",
+    "tipo": "ouro",
+    "preco": "1.200",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "",
+    "maisVendido": false
+  },
+  {
+    "id": "23",
+    "ref": 301,
+    "nome": "Aliança Prata Fosca",
+    "categoria": "prata",
+    "tipo": "prata",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "",
+    "maisVendido": true
+  },
+  {
+    "id": "24",
+    "ref": 301,
+    "nome": "Aliança Prata 925",
+    "categoria": "prata",
+    "tipo": "prata",
+    "preco": "200.00",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "",
+    "maisVendido": false
+  },
+  {
+    "id": "25",
+    "ref": 301,
+    "nome": "Aliança Ouro 18k",
+    "categoria": "ouro",
+    "tipo": "casamento",
+    "preco": "1.200",
+    "imagem": "/img/AliançaPrata.png",
+    "galeria": [
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg"
+    ],
+    "descricao": "",
+    "maisVendido": true
+  }
+]

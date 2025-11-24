@@ -1,125 +1,227 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<html lang="pt-BR">
+
+<header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leila Alianças</title>
-</head>
-<link rel="stylesheet" href="css/style.css"> 
-<body>
 
+    <!-- CSS Global + Módulos -->
+
+    <link rel="stylesheet" href="css/resets.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/produtoPrincipal.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- Fontes Google Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Playpen+Sans+Thai:wght@100..800&family=Sour+Gummy:ital@0;1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel+Decorative:wght@400;700;900&family=Playpen+Sans+Thai:wght@100..800&family=Sour+Gummy:ital@0;1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel+Decorative:wght@400;700;900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playpen+Sans+Thai:wght@100..800&family=Sour+Gummy:ital@0;1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel+Decorative:wght@400;700;900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playpen+Sans+Thai:wght@100..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital@0;1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Cinzel+Decorative:wght@400;700;900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playpen+Sans+Thai:wght@100..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital@0;1&display=swap');
+    </style>
+
+</header>
+
+<body>
+    <!--Container Global  -->
     <div class="container">
+
+        <!--Cabeçalho  -->
+
         <div class="cabecalho">
-            <div>
-                <img src="img/logo.png" alt="Logo Leila Alianças">
+            <div class="promo">
+                <span>10% de Desconto na primeira compra!</span>
             </div>
-            <div>
-                <input type="text" placeholder="O que você está buscando?">
-                <button>Buscar</button>
-                <a href=""></a>
+            <div class="topo">
+                <img class="logo-cabecalho" src="img/logochoco.svg" alt="Logo Leila Alianças">
             </div>
-            <nav>
-                <a href="">Casamento</a>
-                <a href="">Namoro</a>
-                <a href="">Ouro</a>
-                <a href="">Prata</a>
-                <a href="">Moeda</a>
-                <a href="">Ver Tudo</a>
-            </nav>
-            <main>
-                <div class="banner">
-                    <img src="img/banner.png" alt="Banner Leila Alianças">
+            <div class="menu-categorias">
+                <div class="pesquisa-container">
+                    <input type="text" class="barra-pesquisa" placeholder="Buscar...">
+                    <button class="btn-pesquisa">
+                        <img src="/img/favorito.svg" alt="">
+                    </button>
                 </div>
+                <nav class="categorias">
+                    <a class="categoria" href="?home=true">Home</a>
+                    <a class="categoria" href="?tipo=casamento">Casamento</a>
+                    <a class="categoria" href="?tipo=namoro">Namoro</a>
+                    <a class="categoria" href="?tipo=solitaria">solitária</a>
+                    <a class="categoria" href="?tipo=prata">Prata</a>
+                    <a class="categoria" href="?tipo=moeda">Moeda</a>
+                    <a class="ver-tudo" href="?tipo=todos">Ver Tudo</a>
+                </nav>
+                
+            </div>
+        </div>
+
+        <!--Banner  -->
+
+        <div class="banner-produto">
+            <div class="banner">
+                <p class="certificado-texto">Certificado Ourives</p>
+                <span>Alianças Exclusivas e Pernosonalizadas</span>
+                <button class="btn-banner">Orçamento</button>
+            </div>
+        </div>
+
+        <!--Produto Principal  -->
+        
+        <div class="carrossel-container">
+            <div class="carrossel">
+
+                <!-- Produto 1-->
                 <div class="produto-principal">
-                    <img src="img/produto-destaque.png" alt="Produto Destaque">
-                    <div class="descricao-produto">
-                        <h2>Aliança de Moeda Antiga</h2>
-                        <p>Aliança feita com moeda antiga, design exclusivo e acabamento impecável.</p>
-                        <span>R$ 450,00</span>
-                        <button>Comprar Agora</button>
-                        <button>Ver Produto</button>
+                    <div class="card-produto-pricipal">
+                        <img class="alianca-principal" src="img/Alianças ex.avif" alt="Produto Destaque">
+                        <div class="descricao-produto">
+                            <span class="estoque">Produto em Estoque</span>
+                            <h2>Aliança de Ouro Envelhecido </h2>
+                            <p>Aliança feita com moeda antiga, design exclusivo e acabamento impecável.</p>
+                            <div class="preco">
+                                <span class="preco-desconto">R$ 680,00 </span>
+                                <span class="preco-original">R$ 850,00</span>
+                                <div> <span class="desconto-porcento"> -20% </span></div>
+                            </div>
+                            <div class="btn-compra">
+                                <button class="btn-comprar">Comprar Agora</button>
+                                <button class="btn-ver">Ver Produto</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="produtos">
-                    <div class="titulo-produtos">
-                        <h2>Os mais vendidos</h2>
-                        <h3>Descubra os queridinhos dos nossos clientes</h3>
-                        
-                    <div class="produto">
-                        <img src="img/produto1.png" alt="Produto 1">
-                        <p>Aliança de Ouro 18k</p>
-                        <span>R$ 1.200,00</span>
-                    </div>
-                    <div class="produto">
-                        <img src="img/produto2.png" alt="Produto 2">
-                        <p>Aliança de Prata</p>
-                        <span>R$ 300,00</span>
-                    </div>
-                    <div class="produto">
-                        <img src="img/produto3.png" alt="Produto 3">
-                        <p>Aliança de Moeda Antiga</p>
-                        <span>R$ 450,00</span>
-                    </div>
-                    <div class="produto">
-                        <img src="img/produto4.png" alt="Produto 4">
-                        <p>Aliança de Ouro Branco</p>
-                        <span>R$ 1.500,00</span>
+
+                <!-- Produto 2-->
+                <div class="produto-principal">
+                    <div class="card-produto-pricipal">
+                        <img class="alianca-principal" src="img/prata.webp" alt="Produto Destaque">
+                        <div class="descricao-produto">
+                            <span class="estoque">Produto em Estoque</span>
+                            <h2>Prata Polida</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin sit
+                            amet turpis eu euismod</p>
+                            <div class="preco">
+                                <span class="preco-desconto">R$ 680,00 </span>
+                                <span class="preco-original">R$ 850,00</span>
+                                <div> <span class="desconto-porcento"> -20% </span></div>
+                            </div>
+                            <div class="btn-compra">
+                                <button class="btn-comprar">Comprar Agora</button>
+                                <button class="btn-ver">Ver Produto</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </main>
-            <footer>
-                <div class="informacoes">
-                    <div>
-                        <img src="img/logo-rodape.png" alt="Logo Rodapé">
+
+                <!-- Produto 3-->
+                <div class="produto-principal">
+                    <div class="card-produto-pricipal">
+                        <img class="alianca-principal" src="img/prataouro.webp" alt="Produto Destaque">
+                        <div class="descricao-produto">
+                            <span class="estoque">Produto em Estoque</span>
+                            <h2>Namoro Ouro e Prata </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            <div class="preco">
+                                <span class="preco-desconto">R$ 680,00 </span>
+                                <span class="preco-original">R$ 850,00</span>
+                                <div> <span class="desconto-porcento"> -20% </span></div>
+                            </div>
+                            <div class="btn-compra">
+                                <button class="btn-comprar">Comprar Agora</button>
+                                <button class="btn-ver">Ver Produto</button>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <img src="icones-redes-sociais.png" alt="Redes Sociais">
-                        <img src="icones-redes-sociais.png" alt="Redes Sociais">
-                        <img src="icones-redes-sociais.png" alt="Redes Sociais">
-                    </div>
+                </div>
+            </div>
+            
+             <!-- Botões -->
+                <button class="btn-volt">&#10094;</button>
+                <button class="btn-prox">&#10095;</button>
+        </div>
+
+        <!--Produtos  -->
+
+        <main>
+            <div class="produtos">
+                <div class="titulo">
+                    <h2>Os mais vendidos</h2>
+                    <p>Descubra os queridinhos dos nossos clientes</p>
+                </div>
+                <div class="produtos-lista" id="produtos-lista">
+                    <!-- Os produtos vão aparecer aqui -->
+
+                </div>
+            </div>
+            <script src="/js/produtos.js"></script>
+        </main>
+
+        <!--Rodapé  -->
+
+        <footer>
+            <div class="informacoes">
+                <div>
+                    <img class="logo-rodape" src="img/Logo branca sem fundo.png" alt="Logo Rodapé">
+                </div>
+                <div class="redes-sociais">
+                    <img class="redes" src="/img/icone face branco.png" alt="Facebook">
+                    <img class="redes " src="/img/icone insta branco.png" alt="Instagram">
+                    <img class="redes" src="/img/icone spotify branco.png" alt="Spotify">
+                </div>
+                <div class="informacoes-footer">
                     <div class="sobre">
-                        <p>Sobre a Leila Alianças</p>
+                        <p>Conheça Nossa Fundadora</p>
                         <a href="">Sobre a Leila Alianças</a>
                     </div>
                     <div class="categoria">
                         <h3>Categoria</h3>
-                        <a href="">Aliança/a>
+                        <a href=""> Aliança </a>
                         <a href="">Namoro</a>
                         <a href="">Casamento</a>
                         <a href="">Solitária</a>
                         <a href="">Moeda</a>
                         <a href="">Ouro</a>
-                        <a href="">Prata/a>
+                        <a href="">Prata</a>
                         <a href="">Curadoria da Leila</a>
                     </div>
-                    <div class="ajuda">
-                        <h3>Ajuda</h3>
-                        <a href="">FAQ</a>
-                        <a href="">Política de Privacidade</a>
-                        <a href="">Termos de Uso</a>
-                        <a href="">Trocas e Devoluções</a>
+                    <div class="ajuda-contato">
+                        <div class="ajuda sep">
+                            <h3>Ajuda</h3>
+                            <a href="">FAQ</a>
+                            <a href="">Política de Privacidade</a>
+                            <a href="">Termos de Uso</a>
+                            <a href="">Trocas e Devoluções</a>
+                        </div>
+                        <div class="contato">
+                            <h3>Central de Atendimento</h3>
+                            <a href="">Contato</a>
+                            <a href="">Dúvidas Frequentes:</a>
+                        </div>
                     </div>
                     <div class="formas-pagamento">
                         <h3>Formas de Pagamento</h3>
-                        <img src="img/cartoes.png" alt="Cartões Aceitos">   
+                        <img src="img/cartoes.png" alt="Cartões Aceitos">
                     </div>
-                    <div class="contato">
-                        <h3>Central de Atendimento</h3>
-                        <a href="">Contato</a>
-                        <a href="">Dúvidas Frequentes:</a>
-                    </div> 
-                    <div class="separador"></div>
-                    <div class="direitos">
-                        <p>© 2023 Leila Alianças. Todos os direitos reservados.</p> 
-                    </div>
-                    <div class="desenvolvedor">
-                        <p>Desenvolvido por: <a href="">Pétalas TECH</a></p>
-                    </div>
+
                 </div>
-            </footer>           
-        </div>
-            
+                <hr>
+                <div class="separador"></div>
+                <div class="direitos">
+                    <p>© 2023 Leila Alianças. Todos os direitos reservados.</p>
+                </div>
+                <div class="desenvolvedor">
+                    <p>Desenvolvido por: <a href="">PétalasTEC</a></p>
+                </div>
+            </div>
+        </footer>
     </div>
-    
+
+    <script src="js/banners.js"></script>
+    <script src="js/promo.js"></script>
 </body>
+
 </html>

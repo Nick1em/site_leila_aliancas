@@ -1,0 +1,23 @@
+.contato-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contato-form input,
+.contato-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contato-form button {
+  background-color: #e2b1c0;
+  border: none;
+  color: #fff;
+  padding: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

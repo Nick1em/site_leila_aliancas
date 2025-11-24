@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Detalhes - Aliança</title>
+
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/detalhes.css" />
+  <link rel="stylesheet" href="css/resets.css" />
+
+
+</head>
+
+<body>
+
+  <header>
+  <div class="container">
+
+        <!--Cabeçalho  -->
+
+        <div class="cabecalho">
+            <div class="promo">
+                <span>10% de Desconto na primeira compra!</span>
+            </div>
+            <div class="topo">
+                <img class="logo-cabecalho" src="img/logochoco.svg" alt="Logo Leila Alianças">
+            </div>
+            <div class="menu-categorias">
+                <div class="pesquisa-container">
+                    <input type="text" class="barra-pesquisa" placeholder="Buscar...">
+                    <button class="btn-pesquisa">
+                        <img src="/img/favorito.svg" alt="">
+                    </button>
+                </div>
+                <nav class="categorias">
+                    <a class="categoria" href="?home=true">Home</a>
+                    <a class="categoria" href="?tipo=casamento">Casamento</a>
+                    <a class="categoria" href="?tipo=namoro">Namoro</a>
+                    <a class="categoria" href="?tipo=solitaria">solitária</a>
+                    <a class="categoria" href="?tipo=prata">Prata</a>
+                    <a class="categoria" href="?tipo=moeda">Moeda</a>
+                    <a class="ver-tudo" href="?tipo=todos">Ver Tudo</a>
+                </nav>
+                
+            </div>
+        </div>
+  </header>
+
+  <!-- Main Conteiner -->
+  <main class="container">
+
+    <div class="returno"><a class="voltar" href="index.html" title="Voltar para produtos">← Voltar</a></div>
+
+    <section class="card">
+      <div class="galeria-wrap">
+        <div id="miniaturas" class="miniaturas" aria-hidden="false"></div>
+
+        <div class="imagem-principal-wrap">
+          <img id="imagem-principal" class="imagem-principal" src="" alt="Imagem do produto" />
+        </div>
+      </div>
+
+      <aside class="info">
+        <h1 id="nome-produto" class="produto-nome">Nome do produto</h1>
+        <p id="subtitulo" class="subtitulo">Alianças com carinho e acabamento impecável</p>
+
+        <div class="preco-wrap">
+          <div id="preco" class="preco">R$ 0,00</div>
+          <div id="parcelas" class="parcelas">ou 3x de R$ 0,00</div>
+        </div>
+
+        <p id="descricao" class="descricao"></p>
+
+        <ul class="detalhes-lista" id="detalhes-lista">
+          <!-- Ex.: tempo de produção, garantia, banho -->
+        </ul>
+
+        <div class="acoes">
+          <button id="btn-whats" class="btn-whats" aria-label="Comprar pelo WhatsApp">
+            <svg class="icon-heart" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+              <path fill="currentColor"
+                d="M12 21s-7.5-4.35-10-7.2C-0.4 8.6 3 4 7.6 6.2 9.3 7 11 8.6 12 10c1-1.4 2.7-3 4.4-3.8C21 4 24.4 8.6 22 13.8 19.5 16.65 12 21 12 21z" />
+            </svg>
+            Fale com Vendedor
+          </button>
+
+          <button id="btn-orcamento" class="btn-outline">Pedir Orçamento</button>
+        </div>
+
+        <div class="meta">
+          <small id="tempo-producao"></small>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <!-- Rodapé-->
+  <footer>
+    <div class="informacoes">
+      <div>
+        <img class="logo-rodape" src="img/Logo branca sem fundo.png" alt="Logo Rodapé">
+      </div>
+      <div class="redes-sociais">
+        <img class="redes" src="/img/icone face branco.png" alt="Facebook">
+        <img class="redes " src="/img/icone insta branco.png" alt="Instagram">
+        <img class="redes" src="/img/icone spotify branco.png" alt="Spotify">
+      </div>
+      <div class="informacoes-footer">
+        <div class="sobre">
+          <p>Conheça Nossa Fundadora</p>
+          <a href="">Sobre a Leila Alianças</a>
+        </div>
+        <div class="categoria">
+          <h3>Categoria</h3>
+          <a href="index.html?tipo=alianca"> Aliança </a>
+          <a href="index.html?tipo=namoro">Namoro</a>
+          <a href="index.html?tipo=casamento">Casamento</a>
+          <a href="index.html?tipo=solitaria">Solitária</a>
+          <a href="index.html?tipo=moeda">Moeda</a>
+          <a href="index.html?tipo=ouro">Ouro</a>
+          <a href="index.html?tipo=prata">Prata</a>
+          <a href="index.html?tipo=leila">Curadoria da Leila</a>
+        </div>
+        <div class="ajuda-contato">
+          <div class="ajuda sep">
+            <h3>Ajuda</h3>
+            <a href="">FAQ</a>
+            <a href="">Política de Privacidade</a>
+            <a href="">Termos de Uso</a>
+            <a href="">Trocas e Devoluções</a>
+          </div>
+          <div class="contato">
+            <h3>Central de Atendimento</h3>
+            <a href="">Contato</a>
+            <a href="">Dúvidas Frequentes:</a>
+          </div>
+        </div>
+        <div class="formas-pagamento">
+          <h3>Formas de Pagamento</h3>
+          <img src="img/cartoes.png" alt="Cartões Aceitos">
+        </div>
+
+      </div>
+      <hr>
+      <div class="separador"></div>
+      <div class="direitos">
+        <p>© 2023 Leila Alianças. Todos os direitos reservados.</p>
+      </div>
+      <div class="desenvolvedor">
+        <p>Desenvolvido por: <a href="">PétalasTEC</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/detalhes.js"></script>
+  <script src="js/detalhesLogica.js"></script>
+  <script src="js/promo.js"></script>
+</body>
+
+</html>
