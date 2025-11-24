@@ -109,11 +109,11 @@ function renderizar(listaProdutos) {
     <p class= "pp" >${produtos.nome}</p>
     <h3>${BRL.format(preco)}</h3>
     <span>ou 3x de ${BRL.format(parcela)}</span>
-    <button class="btn-vendedor"> Compre Agora </button>
+    <button class="btn-vendedor"> Fale com Vendedor </button>
     `;
-   const img = cardProduto.querySelector('.alianca')
+    const img = cardProduto.querySelector('.alianca')
     img.addEventListener('click', () => {
-      alert(`Colocar Página dedicada ao produto: ${produtos.nome}`);
+      window.location.href = `detalhes.html?id=${produtos.id}`;
     });
 
     container.appendChild(cardProduto)

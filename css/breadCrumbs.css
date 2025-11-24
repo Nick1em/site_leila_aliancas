@@ -1,0 +1,15 @@
+
+.breadcrumb {
+  font-size: .9rem;
+  margin-bottom: 1rem;
+  color: #241814;
+  border: 2px solid red;
+}
+.breadcrumb a {
+  text-decoration: none;
+  color: #241814;
+  opacity: .9;
+}
+.breadcrumb span {
+  opacity: .6;
+}
